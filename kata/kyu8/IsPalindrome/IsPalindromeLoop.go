@@ -4,7 +4,7 @@ import (
 	"strings"
 )
 
-func IsPalindrome(str string) bool {
+func IsPalindromeLoop(str string) bool {
 	str = strings.ToLower(str)
 
 	first := 0
