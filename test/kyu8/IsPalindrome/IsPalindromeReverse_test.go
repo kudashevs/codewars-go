@@ -7,7 +7,7 @@ import (
 	. "github.com/kudashevs/codewars-go/kata/kyu8/IsPalindrome"
 )
 
-var _ = Describe("IsPalindromeReverse", func() {
+var _ = Describe("IsPalindrome with reverse", func() {
 	It("tests basic strings", func() {
 		Expect(IsPalindromeReverse("a")).To(Equal(true))
 		Expect(IsPalindromeReverse("aba")).To(Equal(true))

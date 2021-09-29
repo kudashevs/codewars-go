@@ -7,7 +7,7 @@ import (
 	. "github.com/kudashevs/codewars-go/kata/kyu8/IsPalindrome"
 )
 
-var _ = Describe("IsPalindromeLoop", func() {
+var _ = Describe("IsPalindrome with loop", func() {
 	It("tests basic strings", func() {
 		Expect(IsPalindromeLoop("a")).To(Equal(true))
 		Expect(IsPalindromeLoop("aba")).To(Equal(true))
