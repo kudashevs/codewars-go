@@ -12,12 +12,15 @@ var _ = Describe("RemoveChar", func() {
 		It("eloquent", func() {
 			Expect(RemoveChar("eloquent")).To(Equal("loquen"))
 		})
+
 		It("country", func() {
 			Expect(RemoveChar("country")).To(Equal("ountr"))
 		})
+
 		It("person", func() {
 			Expect(RemoveChar("person")).To(Equal("erso"))
 		})
+
 		It("place", func() {
 			Expect(RemoveChar("place")).To(Equal("lac"))
 		})
