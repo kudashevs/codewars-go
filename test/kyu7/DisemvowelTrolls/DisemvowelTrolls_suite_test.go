@@ -1,4 +1,4 @@
-package DisemvowelTrolls_test
+package disemvoweltrolls_test
 
 import (
 	"testing"
