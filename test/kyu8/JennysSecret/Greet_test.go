@@ -11,5 +11,5 @@ var _ = Describe("JennysSecret", func() {
 	It("should work for sample test cases", func() {
 		Expect(Greet("Alfred")).To(Equal("Hello, Alfred!"))
 		Expect(Greet("Johnny")).To(Equal("Hello, my love!"))
-	  })
+	})
 })
