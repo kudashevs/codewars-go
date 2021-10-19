@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func InArray(array1 []string, array2 []string) []string {
+func InArrayLoop(array1 []string, array2 []string) []string {
 	result := []string{}
 	tmp := map[string]bool{}
 
