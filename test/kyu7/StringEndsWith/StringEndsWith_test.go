@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/kudashevs/codewars-go/kata/kyu7/stringendswith"
+	. "github.com/kudashevs/codewars-go/kata/kyu7/StringEndsWith"
 )
 
 var _ = Describe("StringEndsWith", func() {
