@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/kudashevs/codewars-go/kata/kyu8/sumofpositive"
+	. "github.com/kudashevs/codewars-go/kata/kyu8/SumOfPositive"
 )
 
 var _ = Describe("PositiveSum", func() {
